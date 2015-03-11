@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Canvas Painting</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/canvas_painting.js" language="javascript"></script>
+
+</head>
+
+<body>
+<!--Covers canvas and blue background -->
+<div id="main"> 
+	<h1> Canvas Painting</h1>
+   
+    <!-- Covers palette and canvas -->
+	<div id="canvas"> 
+    	<br/><br/><br/>
+        <div id="palette">
+        	<div id="red_color" class="colors"></div>
+            <br/>
+            
+            <div id="blue_color" class="colors"></div>
+            <br/>
+            
+            <div id="yellow_color" class="colors"></div>
+            <br/>
+            
+            <div id="green_color" class="colors"></div>
+       </div>
+    </div> <!--End of canvas tag -->
+    <div style="clear:both"></div>
+    
+    <!-- Tag creates the boxes in the canvas -->
+    <div id="canvas_sheet">
+    	<div id="row1">
+        	<div id="row1_box1" class="rows"></div>
+            <div id="row1_box2" class="rows"></div>
+            <div id="row1_box3" class="rows"></div>
+        </div>
+        
+        
+        <div id="row2">
+        	<div id="row2_box1" class="rows"></div>
+            <div id="row2_box2" class="rows"></div>
+            <div id="row2_box3" class="rows"></div>
+            <div id="row2_box4" class="rows"></div>
+        </div>
+        
+        <div id="row3">
+        	<div id="row3_box1" class="rows"></div>
+            <div id="row3_box2" class="rows"></div>
+            <div id="row3_box3" class="rows"></div>
+            <div id="row3_box4" class="rows"></div>
+            <div id="row3_box5" class="rows"></div>
+        </div>
+    </div>
+    <div style="clear:both"></div>
+    
+    
+    <!-- Footer provides reset and home button -->
+    <div id="footer">
+    	<div id="left">
+    		<a href="index.html">
+        		<img alt="Reset Button" src="img/reset.png" height="50" width="50" />
+        	</a>
+    	</div> 
+     <!--   <div id="right">
+        	<a href="">
+        		<img alt="Home Button" src="img/home.png" height="50" width="50" />
+        	</a>
+        </div>-->
+    </div>
+
+
+
+</div><!--End of main tag -->
+
+</body>
+</html>

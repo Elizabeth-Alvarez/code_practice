@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-image:url(../img/bg.gif);
+	
+}
+
+#box {
+	height: 300px;
+	width: 300px;
+	background-color:#FF0;
+	outline:solid;
+	position:absolute;
+	margin-top:30px;
+}

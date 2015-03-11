@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* Everything borrowed from main.css */
+
+#container {
+	height:300px;
+	width:650px;
+	margin-left:200px;
+	margin-top:0px;
+}
+
+h1 {
+	padding-top:25px;
+}
